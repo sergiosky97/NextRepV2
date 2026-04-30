@@ -1,0 +1,34 @@
+{
+  "name": "@nextrep/api",
+  "private": true,
+  "scripts": {
+    "dev": "dotenv -e .env -- nest start --watch",
+    "build": "nest build",
+    "start": "node dist/main.js",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "bcryptjs": "latest",
+    "jsonwebtoken": "latest",
+    "@nestjs/common": "latest",
+    "@nestjs/core": "latest",
+    "@nestjs/platform-express": "latest",
+    "@supabase/supabase-js": "latest",
+    "dotenv": "latest",
+    "pg": "latest",
+    "reflect-metadata": "latest",
+    "rxjs": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "latest",
+    "@nestjs/cli": "latest",
+    "@types/node": "latest",
+    "@types/pg": "latest",
+    "dotenv-cli": "latest",
+    "typescript": "5.9.2",
+    "vitest": "latest"
+  }
+}

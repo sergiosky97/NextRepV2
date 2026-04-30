@@ -1,0 +1,5 @@
+<svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="10" fill="#4F46E5"/>
+  <path d="M9 22V10H13L19 17V10H23V22H19L13 15V22H9Z" fill="white"/>
+  <text x="40" y="22" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">NextRep</text>
+</svg>

@@ -1,0 +1,34 @@
+{
+  "name": "@nextrep/mobile",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "dev": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "expo": "~55.0.18",
+    "expo-constants": "~55.0.15",
+    "expo-linking": "~55.0.14",
+    "expo-router": "6.0.13",
+    "react": "19.2.0",
+    "react-native": "0.83.6",
+    "@tanstack/react-query": "latest",
+    "@nextrep/api-client": "workspace:*",
+    "@nextrep/auth": "workspace:*",
+    "@nextrep/domain": "workspace:*",
+    "@nextrep/i18n": "workspace:*",
+    "@nextrep/ui": "workspace:*",
+    "@nextrep/assets": "workspace:*",
+    "@react-native-async-storage/async-storage": "latest",
+    "react-native-svg": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-native": "latest",
+    "typescript": "5.9.2"
+  }
+}

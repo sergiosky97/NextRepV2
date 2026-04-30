@@ -1,0 +1,32 @@
+{
+  "name": "@nextrep/web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "@tanstack/react-query": "latest",
+    "zod": "latest",
+    "react-hook-form": "latest",
+    "zustand": "latest",
+    "@supabase/supabase-js": "latest",
+    "@nextrep/auth": "workspace:*",
+    "@nextrep/domain": "workspace:*",
+    "@nextrep/ui": "workspace:*",
+    "@nextrep/i18n": "workspace:*",
+    "@nextrep/api-client": "workspace:*"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "latest",
+    "typescript": "5.9.2",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}
