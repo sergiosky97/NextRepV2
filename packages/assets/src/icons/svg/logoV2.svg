@@ -20,7 +20,7 @@
  .rep-base2 {
 		fill: none;
 		stroke: #b0d12a;
-		stroke-width: 3;
+		stroke-width: 5;
 		stroke-miterlimit: 10;
 		stroke-linecap: round;
 		stroke-dasharray: 50, 2000;
