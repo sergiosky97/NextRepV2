@@ -454,5 +454,6 @@ Tema único para web/mobile: mismo token source y adaptadores de plataforma.
 ## Nota final de enfoque
 
 Esta base evita sobreingeniería, pero deja preparadas las decisiones que más cuestan cambiar tarde: límites de capas, contratos API, design system, i18n, assets y desacoplo de proveedor.
-#   N e x t R e p V 2  
+#   N e x t R e p V 2 
+ 
  
