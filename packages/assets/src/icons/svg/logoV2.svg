@@ -5,7 +5,7 @@
 <style>
 	.rep-base {
 		fill:none;
-		stroke:"#00D99F";
+		stroke:#00D99F;
 		stroke-width: 3;
 		stroke-miterlimit: 10;
 	}
