@@ -23,7 +23,7 @@
 		stroke-width: 3;
 		stroke-miterlimit: 4;
 		stroke-linecap: round;
-		stroke-dasharray: 30, 5;
+		stroke-dasharray: 100, 5;
 	}
 
  
