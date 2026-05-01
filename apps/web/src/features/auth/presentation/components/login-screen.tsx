@@ -72,8 +72,7 @@ export function LoginScreen() {
       >
         <h1 style={{ margin: 0, textAlign: "center", fontSize: tokens.typography.title }}>
           <span style={{ display: "inline-grid", placeItems: "center", gap: tokens.spacing.sm }}>
-            <LogoSvg width={120} height={32} />
-            {t("auth.title")}
+            <LogoSvg width={200} height={100} />
           </span>
         </h1>
         <label style={{ display: "grid", gap: tokens.spacing.sm }}>
